@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "wzutil": {
+      "commandName": "Project"
+    },
+    "map": {
+      "commandName": "Project",
+      "commandLineArgs": "maplestory-client-v62/Map.wz wz-testing-json",
+      "workingDirectory": "D:\\maplestory-dev"
+    }
+  }
+}
