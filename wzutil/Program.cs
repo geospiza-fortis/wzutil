@@ -21,7 +21,7 @@ namespace JsonExporter
             var baseDir = args[1];
             Console.WriteLine($"Exporting {wzPath} to {baseDir}");
             WzMapleVersion version = WzMapleVersion.GMS;
-            IWzFileSerializer serializer = new WzClassicXmlSerializer(2, LineBreak.Windows, false);
+            IWzFileSerializer serializer = new WzJsonSerializer(false);
 
             if (!Directory.Exists(baseDir))
             {
