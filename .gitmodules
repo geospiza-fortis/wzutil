@@ -1,0 +1,3 @@
+[submodule "MapleLib"]
+	path = MapleLib
+	url = git@github.com:geospiza-fortis/MapleLib.git
